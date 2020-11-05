@@ -6,7 +6,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'TM',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,32 +34,23 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
-    nav: [
-      {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
-        text: 'Config',
-        link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
-    ],
+    nav: [],
     sidebar: {
-      '/guide/': [
+      '/ranking/': [
         {
-          title: 'Guide',
-          collapsable: false,
+          title: 'ランキング',
+          collapsable: true,
           children: [
-            '',
-            'using-vue',
+            '5th',
+            '4th',
+            '3rd',
+            '2nd',
+            '1st',
           ]
         }
       ],
-    }
+    },
+    nextLinks: true
   },
 
   /**
