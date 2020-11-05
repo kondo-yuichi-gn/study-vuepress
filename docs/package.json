@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "deploy": "push-dir --dir=./.vuepress/dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=./src/.vuepress/dist --branch=gh-pages --cleanup"
   },
   "license": "MIT",
   "devDependencies": {
