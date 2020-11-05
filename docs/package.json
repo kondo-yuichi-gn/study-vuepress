@@ -1,0 +1,23 @@
+{
+  "name": "study-vuepress",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "kondo",
+    "email": "kondo_yuichi_gn@cyberagent.co.jp"
+  },
+  "repository": "/study-vuepress",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "push-dir --dir=./.vuepress/dist --branch=gh-pages --cleanup"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "push-dir": "^0.4.1"
+  }
+}
