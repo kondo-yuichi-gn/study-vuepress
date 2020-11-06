@@ -108,7 +108,8 @@ success Generated static files in src/.vuepress/dist.
 
 `gh-pages` ブランチに `src/.vuepress/dist` をpushすると
 
-https://kondo-yuichi-gn.github.io/study-vuepress/　で見れる
+https://kondo-yuichi-gn.github.io/study-vuepress/　
+で見れる
 
 
 - github で study-vuepress リポジトリを作る
